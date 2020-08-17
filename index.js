@@ -31,7 +31,6 @@ function watchForm() {
 
   function render(jsonData){
     let htmlTemplate = [];
-    alert("render");
     for(let i = 0; i < jsonData.data.length; i++){
         htmlTemplate.push(`<li>
         <h3>${jsonData.data[i].fullName}</h3>
